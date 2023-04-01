@@ -1,0 +1,76 @@
+/* Global styles */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #e8dbcb;
+}
+
+/* Header styles */
+header {
+	background-color: #ff2e4c;
+	color: #f4f6eb;
+	padding: 20px;
+}
+
+/* Navigation styles */
+nav {
+	background-color: #000;
+	border-bottom: 1px solid #ccc;
+	padding: 10px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px; 
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Main content styles */
+main {
+	margin: 20px;
+}
+
+/* Featured games section styles */
+#featured-games {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+/*game session*/
+.game{
+	text-align:center;
+	margin-left: 500px;
+	margin-right: 550px;
+	margin-top: 20px;
+}
+/*categories session*/
+.categories{
+	text-align: left;
+}
+.btn-3d{
+	height: 25px;
+	width: 55px;
+	border-radius: 20px;
+	background-color: #ff1a49;
+	color:#000;
+	font-size: lem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .5s;
+	box-shadow: 0 6px 0 #bb1542;
+}
+.btn-3d:active{
+	box-shadow: none;
+	transform: translateY(6px);
+}
